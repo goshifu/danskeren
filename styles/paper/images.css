@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid #41403E;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+img.float-left {
+  float: left;
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+img.float-right {
+  float: right;
+  margin: 1rem 0rem 1rem 1rem;
+}
+
+img.no-responsive {
+  max-width: initial;
+  height: initial;
+  display: initial;
+}
+
+img.no-border {
+  border: 0;
+  border-radius: 0;
+}
